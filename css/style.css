@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+}
+header {
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Botao {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.Menu {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  cursor: pointer;
+}
+.Cadastro {
+  background-color: #9b53d4;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Cadastro:hover {
+  background-color: #543071; /* Nova cor de fundo quando o mouse passa sobre o botão */
+}
+.Login {
+  background-color: #000000;
+  color: white;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Login:hover {
+  background-color: #dbb8f8; /* Nova cor de fundo quando o mouse passa sobre o botão */
+  color: #000000;
+}
+.Visualizacao {
+  background-color: white;
+  color: #9b53d4;
+  border: 2px solid #9b53d4;
+  padding: 10px 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Visualizacao:hover {
+  background-color: #543071; /* Nova cor de fundo quando o mouse passa sobre o botão */
+  color: white;
+}
+
+.container {
+  max-width: 100%;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 0px;
+}
+
+.header {
+  text-align: right;
+}
+
+.image {
+  width: 100%;
+  height: 350px;
+}
+
+.title {
+  text-align: left;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.calendar {
+  text-align: left;
+  margin: -35px 0;
+}
+
+.ticket-options {
+  text-align: center;
+  margin: 100px 0;
+}
+
+.ticket-category {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  margin-right: 10px;
+}
+span {
+  margin-right: 5px;
+}
+label[for="pista"] {
+  margin-right: 300px;
+}
+label[for="front"] {
+  margin-right: 256px;
+}
+label[for="camarote"] {
+  margin-right: 270px;
+}
+input {
+  margin-top: 5px;
+}
+span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 22px;
+  background-color: #9b53d4;
+  margin-right: -1px;
+  margin-bottom: -5px;
+  color: white;
+  font-weight: bold;
+}
+.Botao_verde {
+  background-color: #4caf50;
+  color: black;
+  border: none;
+  padding: 15px 32px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50px;
+  position: absolute;
+  top: 90%;
+  left: 45%;
+  margin-top: 100px;
+}
+.Botao_verde:hover {
+  background-color: #b3ffb5;
+}
